@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+header {
+  height: 40px;
+  background-color: #333;
+}
+
+main {
+  margin: 0 auto;
+  height: 600px;
+  width: 750px;
+  text-align: center;
+  box-shadow: 10px 10px 20px gray;
+}
+
+main #top {
+  margin-bottom: 25px;
+  height: 35px;
+  background-color: #ffa500;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #container {
+  height: 410px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#container section {
+  width: 30%;
+  height: 45%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.github {
+  font-size: 50px;
+  color: black;
+}
+
+aside {
+  height: 80px;
+  background-color: skyblue;
+  margin-bottom: 60px;
+}
+
+aside #team {
+  width: 470px;
+  height: 100%;
+  background-color: #f8f8f8;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+aside #hi {
+  width: 230px;
+  height: 100%;
+  background-color: #d0b134;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container section {
+  border-radius: 7px;
+}
+
+aside #team,
+aside #hi {
+  border-radius: 5px;
+}
+
+footer {
+  height: 200px;
+}
